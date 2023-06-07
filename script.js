@@ -14,5 +14,4 @@ function botao() {
     escreverTela.innerHTML = `Erro! Preencha com um nome válido!`;
   else
     escreverTela.innerHTML = `${nome_user} foi cancelado(a) por ${textoRandom}`
-
 }
