@@ -22,4 +22,5 @@ A criação deste site utiliza as tecnologias básicas para uma página web:
 - CSS
 - JavaScript
 
+<img src="https://img.shields.io/github/license/Talyslan/Talyslan?style=for-the-badge&logo=unlicense&logoColor=lightgrey&color=70A5FD" alt="license mit" />
 Feito por <a href="https://github.com/Talyslan">Talyslan Canabarro</a>
