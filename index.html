@@ -4,28 +4,71 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
-  <link rel="icon" href="./favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap"
+    rel="stylesheet">
+
+  <link rel="icon" href="./images/favicon.ico">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Gerador de Cancelamento</title>
 </head>
 
 <body>
   <h1>Gerador de Cancelamento!</h1>
-  
+
+  <div class="blobs">
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="fill" x1="0%" y1="0%" x2="100%" y2="0%" gradientTransform="rotate(45 0.5 0.5)">
+          <stop offset="0%" stop-color="#615ae1"></stop>
+          <stop offset="100%" stop-color="#a97aff"></stop>
+        </linearGradient>
+      </defs>
+      <path d="M82,72.5Q65,95,45,81.5Q25,68,21.5,47.5Q18,27,40,20.5Q62,14,80.5,32Q99,50,82,72.5Z" stroke="none"
+        stroke-width="0" fill="url(#fill)"></path>
+    </svg>
+
+    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="fill" x1="0%" y1="0%" x2="100%" y2="0%" gradientTransform="rotate(45 0.5 0.5)">
+          <stop offset="0%" stop-color="#615ae1"></stop>
+          <stop offset="100%" stop-color="#a97aff"></stop>
+        </linearGradient>
+      </defs>
+      <path d="M78.5,64.5Q60,79,38.5,76.5Q17,74,15,48.5Q13,23,36.5,21Q60,19,78.5,34.5Q97,50,78.5,64.5Z" stroke="none"
+        stroke-width="0" fill="url(#fill)"></path>
+    </svg>
+  </div>
+
   <div class="box">
     <span id="name">Digite seu nome:</span>
-    
+
     <label for="name">
-      <input type="text" id="nome" placeholder="Insira seu nome"/>
-      <button onclick="botao()">Gerar cancelamento</button>
+      <input type="text" id="nome" placeholder="Insira seu nome" />
+      <button>Gerar cancelamento</button>
     </label>
   </div>
 
   <div class="box">
     <p>Resultado</p>
   </div>
-  
+
+  <footer>
+    <div class="social-midias">
+      <a href="https://github.com/Talyslan" target="_blank">
+        <img src="images/github.png" alt="Icon do GitHub">
+      </a>
+      <a href="mailto:talyslancpc@gmail.com" target="_blank">
+        <img src="images/gmail.png" alt="Icon Gmail">
+      </a>
+    </div>
+
+    <span>
+      Created by
+      <a href="https://github.com/Talyslan" target="_blank">Talyslan C. P. Canabarro</a>
+    </span>
+  </footer>
   <script src="script.js"></script>
 </body>
 
